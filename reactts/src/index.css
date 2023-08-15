@@ -29,6 +29,29 @@ body {
   place-items: center;
   min-width: 320px;
   min-height: 100vh;
+  place-content: center;
+}
+
+
+ul,h4{
+  margin: 0;
+  padding: 0;
+
+}
+
+img{
+  border-radius: 200px;
+  height: auto;
+  width: 50px;
+}
+
+ul li{
+  border-radius: 8px;
+  border: 2.8px solid #5f6066;
+  list-style: none;
+  margin-bottom: 1rem;
+  min-width: 320px;
+  padding: 0.5rem 2rem;
 }
 
 h1 {
@@ -66,4 +89,37 @@ button:focus-visible {
   button {
     background-color: #f9f9f9;
   }
+}
+
+form{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+form input {
+  border: 2px solid lightgray;
+  padding: 1rem;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+}
+
+form button {
+  border: 2px solid lightgray;
+  padding: 1rem;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+  background-color: #646cff;
+  color: white;
+  &:hover{
+    background-color: #aa5bf2;
+  }
+}
+
+form textarea{
+  font-family: inherit;
+  border: 2px solid lightgray;
+  padding: 1.2rem;
+  border-radius: 8px;
+  margin-bottom: 1rem;
 }
