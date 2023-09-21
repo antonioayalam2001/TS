@@ -4,6 +4,7 @@ import { Sub } from "../types"
 
 interface FormProps {
     onNewSub: (newSub: Sub) => void
+
 }
 
 
